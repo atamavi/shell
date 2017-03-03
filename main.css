@@ -3,12 +3,17 @@
 
 body {
 background-color: #1a1a10 !important;
+
+}
+body a{
+         text-decoration:none !important;
+
 }
 .logo{
-
+            margin:auto;
             text-align: center;
             font-weight:bolder;
-            width:100%;
+             width:70%;
             height:40px;
             background-color: black;
             font-size: 25px;
@@ -31,11 +36,13 @@ padding-right:160px !important;
 }
 
 .vaziyetal{
+    margin:auto;
     margin-top:5px;
-    width:100%;
-    height: 80%;
+    width:70%;
     background-color: black;
     border: 1px solid #008000;
+    overflow-x: scroll;
+    overflow:hidden;
 }
 .vaziyetal .foto{
 display: block;
@@ -45,6 +52,7 @@ width:551px;
 height:215px;
 border:1px solid #008000;
 margin-top:3px;
+position:relative;
 }
 
 .vaziyetal .sheller{
@@ -52,20 +60,20 @@ margin-top:3px;
 
 }
 
-.buton{
-    
-    color:#18ff62;
-    letter-spacing: 1px;
-    overflow:hidden;
-    background-color: #000;
-    width:150px;
-    margin-left:5px;
+.sheller table{
+margin: auto;
+color:#008000;
+border: 1px solid #008000;
+text-align: center;
+font-size:17px;
+width:360px;
 }
-.buton:hover{
-background-color: #333;
-background: black;
-border-radius: 10px;
-border: 2px solid #339367;
+.sheller table a:hover{
+    color:#008000
 
-
+}
+.nav {
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    
 }
