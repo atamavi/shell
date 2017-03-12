@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body {
-background-color: #1a1a10 !important;
+
+/*background-color: #1a1a10 !important;*/
+background-image:url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-456992.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:100%;
 
 }
 body a{
@@ -76,4 +82,16 @@ width:360px;
     text-align: center;
     font-family: Courier New, Courier, monospace;
     
+}
+.arac{
+    margin:auto;
+}
+.arac .buton{
+    color:#18ff62;
+    letter-spacing:1px;
+    overflow:hidden;
+    background-color:#000;
+    border-radius:10px;
+    display:inline-block;
+    border-color:#008000;
 }
